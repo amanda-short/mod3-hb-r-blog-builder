@@ -13,10 +13,11 @@ import './Preview.css';
   //   <p>This is some blog text. </p>
   // </div>
 
-export default function Preview({ title }) {
+export default function Preview({ title, subtitle }) {
   return (
     <div className={`preview`}>
       <h1> {title}</h1>
+      <h3> {subtitle}</h3>
     </div>
   );
 }
