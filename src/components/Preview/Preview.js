@@ -13,9 +13,9 @@ import './Preview.css';
   //   <p>This is some blog text. </p>
   // </div>
 
-export default function Preview({ title, subtitle }) {
+export default function Preview({ title, subtitle, titleFont }) {
   return (
-    <div className={`preview`}>
+    <div className={`preview ${titleFont}`}>
       <h1> {title}</h1>
       <h3> {subtitle}</h3>
     </div>
